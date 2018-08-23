@@ -1,0 +1,68 @@
+*{
+  font-family: "helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  /*opacity: 0.9;*/
+  text-align: center;
+}
+
+p,
+span{
+  font-size: 22px;
+}
+
+/* Header Section */
+
+header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img{
+  display: block;
+  padding-left: 10px;
+  height: 50px;
+  float: left;
+}
+
+nav{
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span{
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* Main Section */
+
+main{
+  padding-top: 60px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission */
+
+#mission{
+  display: flex;
+  background-image: url("../images/background.jpg");
+  height: 700px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission-heading{
+  width: 100%;
+}
+
+/* Featured Tea */
