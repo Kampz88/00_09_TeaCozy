@@ -2,8 +2,7 @@
   font-family: "helvetica", sans-serif;
   color: seashell;
   background-color: black;
-  /*opacity: 0.9;*/
-  /*font-size: 22px;*/
+  opacity: 0.9;
   text-align: center;
 }
 
@@ -28,16 +27,16 @@ header{
 
 header img{
   display: block;
-  padding-left: 10px;
   height: 50px;
+  padding-left: 10px;
   float: left;
 }
 
 nav{
   display: block;
   text-align: right;
-  flex-grow: 1;
   padding-right: 10px;
+  flex-grow: 1;
 }
 
 nav span{
@@ -88,7 +87,7 @@ main{
 }
 
 .tea-type img{
-  flex-basis: 300px;
+  width: 300px;
   height: 200px;
   margin: 10px;
 }
@@ -98,18 +97,18 @@ main{
 #locations{
   padding: 70px 0px;
   height: 500px;
-  margin: 0 auto;
+  margin: auto;
   background-image: url("../images/locations.jpg");
 }
 
-#locations-heading{
-    background-color: transparent;
+#locations h2{
+  background-color: transparent;
 }
 
 #locations-list{
   display: flex;
   justify-content: center;
-  align-content: space-between;
+  background-color: transparent;
 }
 
 .locations{
@@ -117,7 +116,8 @@ main{
   background-color: black;
   opacity: 1;
   margin: 15px 20px;
-  flex-basis: 300px;
+  padding: 5px;
+  flex-basis: 290px;
 }
 
 /* Additional Info Section */
@@ -131,7 +131,7 @@ main{
 /* Footer Section */
 
 footer{
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 footer h5{
